@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: Gilroy;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #502e2e;
+}
+#center{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(0,-50%);
+    width: 70%;
+    height: 80%;
+    /* background-color: #d80b0b; */
+}
+.imagecontainer{
+    overflow: hidden;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    /* background-color: #50b778;*/
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+#one{
+    width: 0%;
+}
+.text{
+    position: absolute;
+    bottom: 15%;
+    left: -10%;
+    overflow: hidden;
+    width: 400px;
+    height: 110px;
+    z-index: 999;
+    color: cadetblue; 
+}
+.text h2{
+    top: 100px;
+    font-size: 6vw;
+    position: absolute;
+} 
